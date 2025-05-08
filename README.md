@@ -1,7 +1,7 @@
-# **ping_reporter**
+# **Ping Reporter (RouterOS RTT Calculator)**
 
 ### **Overview**
-`ping_reporter` is a Go-based utility that analyzes network latency using data from **RouterOS** devices. The tool connects to a PostgreSQL database, retrieves information about network neighbors, and identifies the worst-performing connections based on **highest round-trip times (RTTs)**. 
+`ping-reporter` is a Go-based utility that analyzes network latency using data from **RouterOS** devices. The tool connects to a PostgreSQL database, retrieves information about network neighbors, and identifies the worst-performing connections based on **highest round-trip times (RTTs)**. 
 
 This allows network administrators to pinpoint connectivity issues and optimize network performance.
 
@@ -53,8 +53,8 @@ Ensure you have:
 ### **Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/petrusjohannesmaas/ping_reporter
-   cd ping_reporter
+   git clone https://github.com/petrusjohannesmaas/ping-reporter
+   cd ping-reporter
    ```
 
 2. Install dependencies:
